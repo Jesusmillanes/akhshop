@@ -1,126 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKH SHOP - Gorras en Hermosillo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKH SHOP - Gorras en Hermosillo</title>
 
-    <meta name="description" content="AKH SHOP venta de gorras en Hermosillo. Entregas a todo Hermosillo.">
-    <meta name="keywords" content="gorras hermosillo, gorras mexico, caps, AKH SHOP">
+<meta name="description" content="AKH SHOP venta de gorras en Hermosillo. Entregas a todo Hermosillo.">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #0a0a0a;
-            color: white;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0a0a;
+    color: white;
+}
 
-        header {
-            background: black;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid gold;
-        }
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+}
 
-        header h1 {
-            color: gold;
-            margin: 0;
-            font-size: 40px;
-        }
+header h1 {
+    color: gold;
+    font-size: 40px;
+}
 
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #111;
-        }
+.hero {
+    text-align: center;
+    padding: 40px;
+}
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
 
-        nav a:hover {
-            color: gold;
-        }
+.card {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
 
-        .hero {
-            text-align: center;
-            padding: 50px;
-        }
+.card:hover {
+    transform: scale(1.05);
+    border: 1px solid gold;
+}
 
-        .hero h2 {
-            color: red;
-        }
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
 
-        .productos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 40px;
-        }
+.precio {
+    color: gold;
+    font-size: 18px;
+}
 
-        .card {
-            background-color: #111;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            transition: 0.3s;
-        }
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
-        .card:hover {
-            transform: scale(1.05);
-            border: 1px solid gold;
-        }
+.btn:hover {
+    background: red;
+}
 
-        .card img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .precio {
-            color: gold;
-            font-size: 20px;
-        }
-
-        .btn {
-            background-color: blue;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background-color: red;
-        }
-
-        .contacto {
-            text-align: center;
-            padding: 30px;
-        }
-
-        .whatsapp {
-            background-color: green;
-            padding: 15px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        footer {
-            background-color: black;
-            text-align: center;
-            padding: 20px;
-            border-top: 2px solid gold;
-        }
-    </style>
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid gold;
+}
+</style>
 </head>
 
 <body>
@@ -130,56 +90,56 @@
     <p>Gorras 🔥</p>
 </header>
 
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#productos">Productos</a>
-    <a href="#contacto">Contacto</a>
-</nav>
-
 <section class="hero">
     <h2>Las mejores gorras en Hermosillo</h2>
     <p>Entregas a todo Hermosillo</p>
 </section>
 
-<section class="productos" id="productos">
+<section class="productos">
 
     <div class="card">
-        <img src="https://via.placeholder.com/300x200">
-        <h3>Gorra Negra</h3>
+        <img src="gorra1.jpg">
+        <h3>Gorra LA Negra</h3>
         <p class="precio">$1300 MXN (incluye caja y cubre polvo)</p>
-        <a href="https://wa.me/526622799471?text=Hola quiero comprar la gorra negra" target="_blank">
+        <a href="https://wa.me/526622799471?text=Hola quiero la gorra LA Negra" target="_blank">
             <button class="btn">Comprar</button>
         </a>
     </div>
 
     <div class="card">
-        <img src="https://via.placeholder.com/300x200">
-        <h3>Gorra Roja</h3>
+        <img src="gorra2.jpg">
+        <h3>Gorra For All Day Haters</h3>
         <p class="precio">$1300 MXN (incluye caja y cubre polvo)</p>
-        <a href="https://wa.me/526622799471?text=Hola quiero comprar la gorra roja" target="_blank">
+        <a href="https://wa.me/526622799471?text=Hola quiero la gorra For All Day Haters" target="_blank">
             <button class="btn">Comprar</button>
         </a>
     </div>
 
     <div class="card">
-        <img src="https://via.placeholder.com/300x200">
-        <h3>Gorra Azul</h3>
+        <img src="gorra3.jpg">
+        <h3>Gorra Negra Elegante</h3>
         <p class="precio">$1300 MXN (incluye caja y cubre polvo)</p>
-        <a href="https://wa.me/526622799471?text=Hola quiero comprar la gorra azul" target="_blank">
+        <a href="https://wa.me/526622799471?text=Hola quiero la gorra negra elegante" target="_blank">
+            <button class="btn">Comprar</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <img src="gorra4.jpg">
+        <h3>Gorra Roja Letras</h3>
+        <p class="precio">$1300 MXN (incluye caja y cubre polvo)</p>
+        <a href="https://wa.me/526622799471?text=Hola quiero la gorra roja" target="_blank">
             <button class="btn">Comprar</button>
         </a>
     </div>
 
 </section>
 
-<section class="contacto" id="contacto">
-    <h2>Contacto</h2>
-    <p>Instagram: @akhshop_ventas</p>
-
-    <a class="whatsapp" href="https://wa.me/526622799471?text=Hola%20quiero%20información%20sobre%20las%20gorras" target="_blank">
-        Contactar por WhatsApp
-    </a>
-</section>
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<a href="https://wa.me/526622799471" target="_blank" 
+style="position:fixed; bottom:20px; right:20px; background:green; color:white; padding:15px; border-radius:50%; text-decoration:none;">
+💬
+</a>
 
 <footer>
     <p>© 2026 AKH SHOP | Hermosillo</p>
